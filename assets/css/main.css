@@ -1384,7 +1384,7 @@ section {
 .menu-img {
   height: 300px; /* Adjust the height as needed */
   /* object-fit: cover; */
-  width: 400px; /* Ensures the image takes up 100% of the width of its container */
+  width: 500px; /* Ensures the image takes up 100% of the width of its container */
 
 }
 
