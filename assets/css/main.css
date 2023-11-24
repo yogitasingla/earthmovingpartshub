@@ -816,7 +816,10 @@ section {
   color: #fff;
   background:gray
 }
-
+.pdf-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin based on your design */
+}
 .navbar .dropdown ul {
   display: block;
   position: absolute;
