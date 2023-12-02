@@ -241,6 +241,17 @@ section {
   }
 }
 
+/* Default styles for larger screens */
+.about-img img {
+  width: 100%; /* Make the image fill its container */
+}
+
+/* Media query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 768px) {
+  .col-lg-6 {
+    width: 100%; /* Make the column take up full width on smaller screens */
+  }
+}
 
 
 
