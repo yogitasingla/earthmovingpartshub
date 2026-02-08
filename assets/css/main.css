@@ -65,7 +65,7 @@ section {
 }
 
 .section-bg {
-  /* background-color: #eee; */
+  background-color: #eee;
 }
 
 .section-header {
@@ -1744,4 +1744,35 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Download Product List Button
+--------------------------------------------------------------*/
+.btn-download-list {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: var(--color-primary);
+  box-shadow: 0 8px 28px rgba(249, 177, 1, 0.2);
+  border: 2px solid transparent;
+}
+
+.btn-download-list i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.btn-download-list:hover {
+  background: #fff;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  box-shadow: 0 8px 28px rgba(249, 177, 1, 0.4);
 }
